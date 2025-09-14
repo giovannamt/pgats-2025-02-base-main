@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "mocha --timeout 5000"
-},
+    "test": "mocha --timeout 5000"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliodelimas/pgats-2025-02-base.git"
@@ -29,6 +29,8 @@
   "devDependencies": {
     "chai": "^6.0.1",
     "mocha": "^11.7.2",
+    "sinon": "^21.0.0",
+    "sinon-chai": "^4.0.1",
     "supertest": "^7.1.4"
   }
 }
